@@ -18,8 +18,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Deepak</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I used to think that I&apos;m a web developer{" "}
-            <br className="sm:block hidden" /> and then i saw the real world!
+            A web developer...because apparently,{" "}
+            <br className="sm:block hidden" /> spending hours debugging code and
+            wrestling with browsers for a living sounded like a great idea!
             {/* <br className="sm:block hidden" /> so here i am participating in
             this endless
             <br className="sm:block hidden" /> war of being the best Dev alive! */}

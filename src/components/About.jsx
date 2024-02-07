@@ -38,7 +38,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
-        Dedicated and skilled Front End Developer with over 2 years of
+        Dedicated and skilled Front End Developer with over 2+ years of
         experience in ReactJS, Redux and JavaScript. Committed to delivering
         high-quality results, optimizing UI performance, and collaborating
         effectively with cross-functional teams. Seeking a challenging role to

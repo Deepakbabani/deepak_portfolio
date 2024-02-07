@@ -19,6 +19,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  backend,
+  creator,
 } from "../assets";
 
 export const navLinks = [
@@ -42,17 +44,17 @@ const services = [
     icon: web,
   },
   {
-    title: "Front End Developer",
+    title: "ReactJs",
     icon: mobile,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "JavaScript",
+    icon: backend,
+  },
+  {
+    title: "TypeScript",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -85,28 +87,12 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -116,7 +102,7 @@ const experiences = [
     company_name: "Konstant InfoSolutions",
     icon: konstant,
     iconBg: "#383E56",
-    date: "Jan 2022 - Present",
+    date: "Jan 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,12 +115,11 @@ const experiences = [
     company_name: "Sequence Technology",
     icon: sequence,
     iconBg: "#E6DEDD",
-    date: "July 2021 - Dec 2022",
+    date: "July 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed as a developer in Flutter and Node.js environments",
+      "Collaborated with back-end developers, designers, and team members to ensure seamless integration and meet design and functionality requirements.",
+      "Conducted troubleshooting and debugging to resolve compatibility issues across different platforms",
     ],
   },
 ];
