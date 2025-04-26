@@ -24,7 +24,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <span className="text-white font-medium mb-4">Mobile</span>
             <span className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium">
-              +919636742866
+              +91-9636742866
             </span>
           </div>
           <div className="flex flex-col">

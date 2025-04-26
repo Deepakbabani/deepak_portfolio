@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import konstant from "./company/konstant.png";
 import sequence from "./company/sequence.png";
+import itt from "./company/itt.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +60,5 @@ export {
   jobit,
   tripguide,
   sequence,
+  itt,
 };

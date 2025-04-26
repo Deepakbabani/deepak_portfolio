@@ -8,17 +8,14 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
+  itt,
   sequence,
   konstant,
   carrent,
   jobit,
   tripguide,
-  threejs,
   backend,
   creator,
 } from "../assets";
@@ -59,24 +56,24 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "Redux Toolkit",
@@ -98,16 +95,30 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "In Time Tec",
+    icon: itt,
+    iconBg: "#F0F0F0",
+    date: "Jul 2024 - Present",
+    points: [
+      "Developing responsive and accessible web applications using React.js and TypeScript.",
+      "Collaborating with cross-functional teams to deliver AI-driven, user-centric solutions aligned with business objectives.",
+      "Contributing to the creation and maintenance of company-wide design systems and reusable component libraries.",
+      "Optimizing application performance and code quality using modern build tools like Vite and enforcing CI/CD best practices.",
+      "Actively participating in improving developer experience, performance standards, and operational excellence.",
+    ],
+  },
+  {
     title: "Web Developer",
     company_name: "Konstant InfoSolutions",
     icon: konstant,
     iconBg: "#383E56",
-    date: "Jan 2021 - Present",
+    date: "Jan 2021 - Jul 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained scalable web applications using React.js and other related technologies.",
+      "Collaborated with cross-functional teams including designers, backend developers, and product managers to deliver high-quality products.",
+      "Implemented responsive design principles and ensured cross-browser compatibility for various web applications.",
+      "Provided technical guidance and mentorship to junior developers, improving team onboarding and development efficiency.",
     ],
   },
   {
